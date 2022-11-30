@@ -8,15 +8,15 @@
 	<button onclick="dataretrive()">Retrive Data</button>
 	<div id="output"></div>
 	<script>
-		function datasave() {
-		let dataprompt = prompt("what data would you like to save");
-		let x = localStorage.setItem(saveprompt, dataprompt);
-		}
-		function dataretrive() {
-		let result = localStorage.getItem(saveprompt);
-		let output = document.getElementById( "output" );
+	function datasave() {
+	let dataprompt = prompt("what data would you like to save");
+	let x = localStorage.setItem(saveprompt, dataprompt);
+	}
+	function dataretrive() {
+	let result = localStorage.getItem(saveprompt);
+	let output = document.getElementById( "output" );
 		output.innerHTML = result;
 	</script>
-	</body>
+</body>
 	
 </html>
